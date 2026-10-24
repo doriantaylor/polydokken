@@ -1,0 +1,11 @@
+services:
+  polytoken:
+    build:
+      context: .
+      args:
+        UID: 1000
+        GID: 1000
+    volumes:
+      - ./work:/home/dorian/polytoken
+    stdin_open: true
+    tty: true
