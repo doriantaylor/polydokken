@@ -6,6 +6,6 @@ services:
         UID: 1000
         GID: 1000
     volumes:
-      - ./work:/home/dorian/polytoken
+      - /home/dorian/polytoken/work:/home/polytoken/work
     stdin_open: true
     tty: true
